@@ -11,6 +11,12 @@
         crossorigin="anonymous">
 
     <title>Loan Calculator</title>
+
+    <style>
+        #loading, #results{
+            display: none;
+        }
+    </style>
 </head>
 
 <body class="bg-dark">
@@ -48,12 +54,12 @@
                     </form>
                     
                     <!-- Loader here -->
-                    <!-- <div id="loading">
+                    <div id="loading">
                         <img src="img/loading.gif" alt="">
-                    </div> -->
+                    </div>
 
                     <!-- Results here -->
-                    <div class="results pt-4">
+                    <div class="results pt-4" id="results">
                         <h5>Results</h5>
                         <div class="form-group">
                             <div class="input-group">
